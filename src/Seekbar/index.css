@@ -1,0 +1,17 @@
+.seekbar {
+  margin-left: 10px;
+  height: 10px;
+  width: 400px;
+  background-color: #e0e0e0;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.seeker {
+  height: 20px;
+  width: 10px;
+  position: absolute;
+  background-color: #b3c5d7;
+  transform: translateX(-50%);
+}
